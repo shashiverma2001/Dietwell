@@ -10,7 +10,7 @@ const DashboardCard = ({ user }) => {
   };
   const deleteDetails = async(e)=>{
     const token = localStorage.getItem('token')
-    const response = await fetch("http://localhost:2000/", {
+    const response = await fetch("https://dietwell-wt6b.onrender.com/", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

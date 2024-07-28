@@ -9,7 +9,7 @@ const UserDietitionQuestion = () => {
     const token = localStorage.getItem('token')
     const data = { question };
     const response = await fetch(
-      "http://localhost:2000/user/dietition/question",
+      "https://dietwell-wt6b.onrender.com/user/dietition/question",
       {
         method: "POST",
         headers: {
