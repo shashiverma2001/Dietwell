@@ -22,7 +22,7 @@ const Forrgottenpassward = () => {
     var data = { Email };
     const token = localStorage.getItem('token')
     console.log(data);
-    const response = await fetch("https://dietwell-wt6b.onrender.com/forgottenpassward", {
+    const response = await fetch("https://deployment-9cai.onrender.com/forgottenpassward", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

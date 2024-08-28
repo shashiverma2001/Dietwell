@@ -17,7 +17,7 @@ const SearchDietitionEmail = (props) => {
     e.preventDefault(); // Prevent the form from submitting in the traditional way
     console.log("Finding user:", email);
     const data = { email };
-    const response = await fetch(`https://dietwell-wt6b.onrender.com/${route}`, {
+    const response = await fetch(`https://deployment-9cai.onrender.com/${route}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

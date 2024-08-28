@@ -44,7 +44,7 @@ const PasswordChangePage = () => {
     const token = localStorage.getItem('token')
     console.log(data);
     //  api call and request is put because we are prforming update operation
-    const response = await fetch("https://dietwell-wt6b.onrender.com/changepassward", {
+    const response = await fetch("https://deployment-9cai.onrender.com/changepassward", {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

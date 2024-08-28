@@ -21,7 +21,7 @@ const Contact = () => {
     console.log(addUser);
 
     // api call where we have to send data
-    const response = await fetch("https://dietwell-wt6b.onrender.com/contact", {
+    const response = await fetch("https://deployment-9cai.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

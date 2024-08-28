@@ -13,7 +13,7 @@ const AdminNavbar = () => {
     e.preventDefault();
     const token = localStorage.getItem('token')
     
-    const response = await fetch("https://dietwell-wt6b.onrender.com/logout", {
+    const response = await fetch("https://deployment-9cai.onrender.com/logout", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

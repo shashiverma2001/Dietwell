@@ -23,7 +23,7 @@ const Profile = () => {
   });
   const firstRender = async () => {
     const token = localStorage.getItem('token')
-    const response = await fetch("https://dietwell-wt6b.onrender.com/profile", {
+    const response = await fetch("https://deployment-9cai.onrender.com/profile", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

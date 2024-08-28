@@ -11,7 +11,7 @@ const Dietition = () => {
   const fetchUsers = async (e) => {
     // const data = { islogin };
     const token = localStorage.getItem('token')
-    const response = await fetch("https://dietwell-wt6b.onrender.com/dietition", {
+    const response = await fetch("https://deployment-9cai.onrender.com/dietition", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

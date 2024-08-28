@@ -14,7 +14,7 @@ const UserCard = ({ user,reload }) => {
   const handleDelete = async () => {
     try {
       const token = localStorage.getItem('token')
-      const response = await fetch(`https://dietwell-wt6b.onrender.com/delete/${user._id}`, {
+      const response = await fetch(`https://deployment-9cai.onrender.com/delete/${user._id}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',

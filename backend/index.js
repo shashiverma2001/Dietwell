@@ -8,7 +8,7 @@ app.use(cookieParser());
 // for parsing and converting data to json format
 const cors = require("cors"); // cors is user to communicating between frontend and backend bassically used for cross origin communication like our frontend is running on port no 3000 and backend is running on 3000 port no then cors is used to communicate
 const corsOptions = {
-  origin: 'https://dietwell-5gr8.onrender.com', //included origin as true
+  origin: 'https://deployment-npko.onrender.com/', //included origin as true
   credentials: true, //included credentials as true
 };
 

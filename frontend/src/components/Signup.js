@@ -24,7 +24,7 @@ const Signup = () => {
   const [ContactNo, setContactno] = useState(0);
   const [confirmPassword, setConfirmPassward] = useState("");
   const [Passward, setPassward] = useState("");
-  const [Role, setRole] = useState("");
+  const [Role, setRole] = useState("user");
   // const [error, setError] = useState(false);
   // const [errorMessage,setErrorMessage] = useState(false);
   // declaring usestate variable
@@ -53,7 +53,7 @@ const Signup = () => {
     console.log(addUser);
     // eslint-disable-next-line no-unused-expressions
     // api call same as login
-    const response = await fetch("https://dietwell-wt6b.onrender.com/signup", {
+    const response = await fetch("https://deployment-9cai.onrender.com/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -141,7 +141,7 @@ const Signup = () => {
                 required
               />
             </div>
-            <div className="my-2 flex justify-center">
+            {/* <div className="my-2 flex justify-center">
               <label
                 className="block text-white w-1/2 text-sm font-bold mb-2"
                 htmlFor="email"
@@ -158,7 +158,7 @@ const Signup = () => {
                 onChange={(e) => setRole(e.target.value)}
                 required
               />
-            </div>
+            </div> */}
             <div className="my-2 flex justify-center">
               <label
                 className="block text-white w-1/2 text-sm font-bold mb-2"

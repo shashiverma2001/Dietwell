@@ -24,7 +24,7 @@ const ShowQueries = (props) => {
   }, [user]);
   const MarkasSolved = async () => {
     const token = localStorage.getItem('token')
-    const response = await fetch(`https://dietwell-wt6b.onrender.com/id/${id}`, {
+    const response = await fetch(`https://deployment-9cai.onrender.com/id/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

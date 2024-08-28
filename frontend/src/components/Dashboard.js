@@ -11,7 +11,7 @@ const Dashboard = () => {
   const fetchUsers = async (e) => {
     // const data = { islogin };
     const token = localStorage.getItem('token')
-    const response = await fetch("https://dietwell-wt6b.onrender.com/dashboard", {
+    const response = await fetch("https://deployment-9cai.onrender.com/dashboard", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -71,7 +71,7 @@ const Dashboard = () => {
       const categoryDetails = async () => {
         const token = localStorage.getItem('token')
         const response = await fetch(
-          `https://dietwell-wt6b.onrender.com/${category}`,
+          `https://deployment-9cai.onrender.com/${category}`,
           {
             method: "POST",
             headers: {
