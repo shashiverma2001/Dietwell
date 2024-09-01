@@ -235,13 +235,34 @@ const UpdateProfile = () => {
             <select
               name="gender"
               id="gender"
-              className="mt-1 p-2 border rounded-md w-full"
+              className="mt-1 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 w-full"
               value={profile.gender}
               onChange={handleChange}
             >
+              <option value="">Select Gender</option>
               <option value="Male">Male</option>
               <option value="Female">Female</option>
               <option value="User Specified">User Specified</option>
+            </select>
+          </div>
+          <div>
+            <label
+              htmlFor="dietpreference"
+              className="block text-sm font-medium text-white"
+            >
+              Diet Preference
+            </label>
+            <select
+              name="dietpreference"
+              id="dietpreference"
+              className="mt-1 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 w-full"
+              value={profile.dietpreference}
+              onChange={handleChange}
+            >
+              <option value="">Select Diet Preference</option>
+              <option value="Veg">Veg</option>
+              <option value="Non-veg">Non-veg</option>
+              <option value="Vegan">Vegan</option>
             </select>
           </div>
 
@@ -261,25 +282,7 @@ const UpdateProfile = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
-            <label
-              htmlFor="dietpreference"
-              className="block text-sm font-medium text-white"
-            >
-              Diet Preference
-            </label>
-            <select
-              name="dietpreference"
-              id="dietpreference"
-              className="mt-1 p-2 border rounded-md w-full"
-              value={profile.dietpreference}
-              onChange={handleChange}
-            >
-              <option value="Veg">Veg</option>
-              <option value="Non-veg">Non-veg</option>
-              <option value="Vegan">Vegan</option>
-            </select>
-          </div>
+          
 
           <div>
             <label
