@@ -69,7 +69,7 @@ router.get("/selected/:selectedOption", FetchQueries); //done
 router.post("/admin/:catagory", category);
 router.delete("/delete/:todelete", toDelete);
 router.patch("/id/:id", MarkasSolved); //done
-router.get("/data/:data", FetchApplyDoctor); //done
+router.post("/data/:data", FetchApplyDoctor); //done
 router.post("/user/dietition/question", userquestionsubmittion);
 router.get("/user/dietition/fetchUserQuestions/:status", fetchUserQuestions);
 router.post("/user/dietition/submit-dietiton-response", DietitionReply);
