@@ -71,7 +71,7 @@ const Dashboard = () => {
       const categoryDetails = async () => {
         const token = localStorage.getItem('token')
         const response = await fetch(
-          `https://deployment-9cai.onrender.com/${category}`,
+          `https://deployment-9cai.onrender.com/admin/${category}`,
           {
             method: "POST",
             headers: {
