@@ -11,7 +11,11 @@ const FetchApplyDoctor = () => {
   const fetchApplications = async () => {
     try {
       const token = sessionStorage.getItem("token");
+<<<<<<< HEAD
       const response = await fetch(`https://deployment-9cai.onrender.com/admin/${pending}`, {
+=======
+      const response = await fetch(`https://deployment-9cai.onrender.com/data/${pending}`, {
+>>>>>>> cd48a18005baca350e05e7743f9616fb35ff9797
         method: "POST",
         headers: {
           "Content-Type": "application/json",
