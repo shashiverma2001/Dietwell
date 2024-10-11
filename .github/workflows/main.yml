@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Send first request to keep application alive
         run: |
-          curl -X GET "https://deployment-npko.onrender.com/"
+          curl -X GET "https://deployment-1-99ih.onrender.com/"
 
       - name: Send second request to keep application alive
         run: |
-          curl -X GET "https://deployment-9cai.onrender.com/"
+          curl -X GET "https://deployment-rsku.onrender.com/"
