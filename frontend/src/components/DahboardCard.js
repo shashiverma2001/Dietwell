@@ -10,7 +10,7 @@ const DashboardCard = ({ user }) => {
   };
   const deleteDetails = async(e)=>{
     const token = localStorage.getItem('token')
-    const response = await fetch("https://deployment-9cai.onrender.com/", {
+    const response = await fetch("https://deployment-1-99ih.onrender.com/", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

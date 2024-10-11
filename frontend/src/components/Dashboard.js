@@ -11,7 +11,7 @@ const Dashboard = () => {
   const fetchUsers = async (e) => {
     // const data = { islogin };
     const token = localStorage.getItem('token')
-    const response = await fetch("https://deployment-9cai.onrender.com/dashboard", {
+    const response = await fetch("https://deployment-1-99ih.onrender.com/dashboard", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -71,7 +71,7 @@ const Dashboard = () => {
       const categoryDetails = async () => {
         const token = localStorage.getItem('token')
         const response = await fetch(
-          `https://deployment-9cai.onrender.com/admin/${category}`,
+          `https://deployment-1-99ih.onrender.com/admin/${category}`,
           {
             method: "POST",
             headers: {

@@ -11,7 +11,7 @@ const FetchApplyDoctor = () => {
   const fetchApplications = async () => {
     try {
       const token = sessionStorage.getItem("token");
-      const response = await fetch(`https://deployment-9cai.onrender.com/data/${pending}`, {
+      const response = await fetch(`https://deployment-1-99ih.onrender.com/data/${pending}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -45,7 +45,7 @@ const FetchApplyDoctor = () => {
     try {
       const data = { email };
       const token = localStorage.getItem("token");
-      const response = await fetch("https://deployment-9cai.onrender.com/approvedoctor", {
+      const response = await fetch("https://deployment-1-99ih.onrender.com/approvedoctor", {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

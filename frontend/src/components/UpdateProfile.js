@@ -33,7 +33,7 @@ const UpdateProfile = () => {
   const firstRender = async () => {
     const token = localStorage.getItem("token");
     const response = await fetch(
-      "https://deployment-9cai.onrender.com/profile/updateprofile",
+      "https://deployment-1-99ih.onrender.com/profile/updateprofile",
       {
         method: "GET",
         headers: {
@@ -89,7 +89,7 @@ const UpdateProfile = () => {
     // You can handle form submission here
     var addUser = { profile };
     const response = await fetch(
-      "https://deployment-9cai.onrender.com/profile/updateprofile",
+      "https://deployment-1-99ih.onrender.com/profile/updateprofile",
       {
         method: "POST",
         headers: {

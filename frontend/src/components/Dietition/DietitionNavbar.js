@@ -8,7 +8,7 @@ const DietitionNavbar = ()=>{
       const token = localStorage.getItem('token')
       e.preventDefault();
       // const token = sessionStorage.getItem('token')
-      const response = await fetch("https://deployment-9cai.onrender.com/logout", {
+      const response = await fetch("https://deployment-1-99ih.onrender.com/logout", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

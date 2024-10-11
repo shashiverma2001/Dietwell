@@ -21,7 +21,7 @@ const WeightLoss = () => {
   };
   const weightLoss = async () => {
     const token = localStorage.getItem('token')
-    const response = await fetch("https://deployment-9cai.onrender.com/services/weightloss", {
+    const response = await fetch("https://deployment-1-99ih.onrender.com/services/weightloss", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

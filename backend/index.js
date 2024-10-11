@@ -6,10 +6,10 @@ app.use(express.json());
 
 app.use(cookieParser());
 // for parsing and converting data to json format
-const cors = require("cors"); // cors is user to communicating between frontend and backend bassically used for cross origin communication like our frontend is running on port no 3000 and backend is running on 3000 port no then cors is used to communicate
+const cors = require("cors"); // cors is user to communicating between frontend and backend bassically used for cross origin communication like our frontend is running on port no 3000 and backend is running on 2000 port no then cors is used to communicate
 const allowedOrigins = [
-  'https://deployment-9cai.onrender.com',
-  'https://deployment-npko.onrender.com',
+  'https://deployment-1-99ih.onrender.com/',
+  'https://deployment-rsku.onrender.com/',
 ];
 
 const corsOptions = {

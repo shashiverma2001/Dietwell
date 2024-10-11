@@ -37,7 +37,7 @@ function App() {
   const logauth = async (e) => {
     const token = localStorage.getItem('token')
     // const data = { islogin };
-    const response = await fetch("https://deployment-9cai.onrender.com/", {
+    const response = await fetch("https://deployment-1-99ih.onrender.com/", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

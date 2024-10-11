@@ -26,7 +26,7 @@ const ApplyDietition = () => {
     const token = localStorage.getItem('token')
     console.log("Form submitted:", formData);
     const DietitionData = { formData };
-    const response = await fetch("https://deployment-9cai.onrender.com/applydietitonform", {
+    const response = await fetch("https://deployment-1-99ih.onrender.com/applydietitonform", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -14,7 +14,7 @@ const PendingQuery = ({ menu, fetchQuestion }) => {
     const data = { reply, id };
     const token = localStorage.getItem('token')
     const response = await fetch(
-      `https://deployment-9cai.onrender.com/user/dietition/submit-dietiton-response`,
+      `https://deployment-1-99ih.onrender.com/user/dietition/submit-dietiton-response`,
       {
         method: "POST",
         headers: {
